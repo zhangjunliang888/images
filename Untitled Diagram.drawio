@@ -1,67 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T11:35:56.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="F04BL53H5ZocU-_JNvba" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-28T03:08:57.636Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="ByQe5TQIgenNKppEam-q" version="14.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1609" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2340" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="yZxD2o_advjfFHyLuFVq-1" value="rule_product&#xa;产品/解决方案信息表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#33FFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-780" y="70" width="140" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-2" value="自增ID   id&#xa;   租户ID   tenant_id&#xa;   产品编码  product_code&#xa;   产品名称  product_name&#xa;   版本号    version&#xa;   产品状态  product_status&#xa;   类型      product_type    1.产品，2. 增值服务, 3.解决方案&#xa;   来源      source&#xa;   租户 tenant_id" style="text;strokeColor=none;fillColor=#33FFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-1">
-          <mxGeometry y="26" width="140" height="134" as="geometry" />
+        <mxCell id="yZxD2o_advjfFHyLuFVq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#33FFFF;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yZxD2o_advjfFHyLuFVq-3" target="yZxD2o_advjfFHyLuFVq-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yZxD2o_advjfFHyLuFVq-3" value="rule_specification &#xa;能力规范(参数)表（选配项表）" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#33FFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-350" y="60" width="170" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-4" value=" 自增id id&#xa;规范(参数)编码 code&#xa;规范(参数)名称 name&#xa;规范(参数)描述 description&#xa;规范(参数)使用角色 owner&#xa;规范(参数)类型 data_type 0-文本,1-整数,2-小数,3-单选,4-多选,5-是否&#xa;计量单位 unit&#xa;租户 tenant_id" style="text;strokeColor=none;fillColor=#33FFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-3">
+        <mxCell id="yZxD2o_advjfFHyLuFVq-4" value=" 自增id id&#xa;规范(参数)编码 code&#xa;规范(参数)名称 name&#xa;规范(参数)描述 description&#xa;规范(参数)使用角色 owner&#xa;规范(参数)类型 data_type 0-文本,1-整数,2-小数,3-单选,4-多选,5-是否&#xa;计量单位 unit&#xa;租户 tenant_id&#xa;" style="text;strokeColor=none;fillColor=#33FFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-3">
           <mxGeometry y="26" width="170" height="124" as="geometry" />
         </mxCell>
         <mxCell id="yZxD2o_advjfFHyLuFVq-5" value="rule_ability &#xa; 能力表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#33FFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-580" y="50" width="160" height="180" as="geometry" />
+          <mxGeometry x="-580" y="40" width="170" height="180" as="geometry" />
         </mxCell>
         <mxCell id="yZxD2o_advjfFHyLuFVq-6" value="自增id id&#xa;能力编码 code&#xa;能力名称 name&#xa;能力描述 description&#xa;需要维护范围 must_scale &#xa; 能力环节编码 segment_code &#xa; 能力分组编码 group_code&#xa;规则状态 status &#xa;版本 version&#xa;租户 tenant_id" style="text;strokeColor=none;fillColor=#33FFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-5">
-          <mxGeometry y="26" width="160" height="154" as="geometry" />
+          <mxGeometry y="26" width="170" height="154" as="geometry" />
         </mxCell>
         <mxCell id="yZxD2o_advjfFHyLuFVq-7" value="rule_ability_specification &#xa; 能力参数关系表  --能力选配项表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#33FFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-430" y="310" width="170" height="150" as="geometry" />
+          <mxGeometry x="-470" y="308" width="230" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-8" value=" 自增id     id&#xa;	能力编码   ability_code&#xa;	能力名称   ability_name&#xa;	参数编码   specification_code&#xa;	参数名称   specification_name&#xa;	租户       tenant_id" style="text;strokeColor=none;fillColor=#33FFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-7">
-          <mxGeometry y="26" width="170" height="124" as="geometry" />
+        <mxCell id="yZxD2o_advjfFHyLuFVq-8" value=" 自增id     id&#xa;	能力编码   ability_code&#xa;	能力名称   ability_name&#xa;	参数编码   specification_code&#xa;	参数名称   specification_name&#xa;	租户       tenant_id&#xa;能力版本号  ability_version" style="text;strokeColor=none;fillColor=#33FFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-7">
+          <mxGeometry y="26" width="230" height="124" as="geometry" />
         </mxCell>
         <mxCell id="yZxD2o_advjfFHyLuFVq-9" value="rule_product_ability &#xa; 产品能力关系表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#33FFFF;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-690" y="325" width="140" height="120" as="geometry" />
+          <mxGeometry x="-690" y="325" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-10" value=" 自增id    id&#xa;  产品编码  product_code&#xa;  产品名称  product_name&#xa;  能力编码  ability_code&#xa;  能力名称  ability_name&#xa;  租户      tenant_id" style="text;strokeColor=none;fillColor=#33FFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-9">
-          <mxGeometry y="26" width="140" height="94" as="geometry" />
-        </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-11" value="" style="endArrow=none;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;endFill=0;exitX=1.01;exitY=0.363;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yZxD2o_advjfFHyLuFVq-4" target="yZxD2o_advjfFHyLuFVq-19">
-          <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="60" y="146" as="sourcePoint" />
-            <mxPoint x="-50" y="146" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-67" y="131" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-12" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yZxD2o_advjfFHyLuFVq-11">
-          <mxGeometry x="-0.8071" y="2" relative="1" as="geometry">
-            <mxPoint x="-9.409999999999998" y="13" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-13" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yZxD2o_advjfFHyLuFVq-11">
-          <mxGeometry x="0.765" y="1" relative="1" as="geometry">
-            <mxPoint x="-12" y="13.24" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-14" value="" style="endArrow=open;endFill=0;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.338;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="yZxD2o_advjfFHyLuFVq-2">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="-630" y="325" as="sourcePoint" />
-            <mxPoint x="-770" y="274" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-630" y="290" />
-              <mxPoint x="-733" y="290" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="yZxD2o_advjfFHyLuFVq-10" value="  自增id    id&#xa;  产品编码  product_code&#xa;  产品名称  product_name&#xa;  能力编码  ability_code&#xa;  能力名称  ability_name&#xa;  租户         tenant_id&#xa; 产品版本号  product_version&#xa; 能力版本号  ability_version&#xa;" style="text;strokeColor=none;fillColor=#33FFFF;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-9">
+          <mxGeometry y="26" width="170" height="144" as="geometry" />
         </mxCell>
         <mxCell id="yZxD2o_advjfFHyLuFVq-15" value="" style="endArrow=open;endFill=0;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;entryX=0.375;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="yZxD2o_advjfFHyLuFVq-6">
           <mxGeometry x="-1" relative="1" as="geometry">
@@ -93,14 +61,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-18" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-764.7277313110914" y="277.26786647175857" as="geometry" />
+        <mxCell id="yZxD2o_advjfFHyLuFVq-22" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-760" y="230" as="sourcePoint" />
+            <mxPoint x="-760.0000000000002" y="229.9999999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-19" value="选配值表&#xa; rule_specification_value" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-151.7" y="295" width="180" height="150" as="geometry" />
+        <mxCell id="yZxD2o_advjfFHyLuFVq-24" value="产品选配项映射表&#xa;rule_factor_spec_mapping" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-630" y="580" width="280" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="yZxD2o_advjfFHyLuFVq-20" value=" 自增主键 id&#xa;选配项编码 specification_code &#xa;选配值编码 code&#xa;选配编码名称 name&#xa;选配名称描述 description&#xa;生效日期 effective_date &#xa;失效日期 expiration_date&#xa;租户    tenant_id " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-19">
-          <mxGeometry y="26" width="180" height="124" as="geometry" />
+        <mxCell id="yZxD2o_advjfFHyLuFVq-25" value="自增主键 id&#xa;产品选配项编码     factor_code&#xa;产品选配项名称     factor_name&#xa;产品选配项值编码  factor_key&#xa;产品选配项值         factor_value&#xa;能力选配编码         specification_code&#xa;能力选配项名称     specification_name&#xa;能力选配值编码     constraint_code&#xa;能力选配置            constraint_value&#xa;租户id                    tenant_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-24">
+          <mxGeometry y="26" width="280" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="yZxD2o_advjfFHyLuFVq-28" value="参数约束(范围)/选配值表&#xa; rule_constraint" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#33FFFF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-150" y="390" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yZxD2o_advjfFHyLuFVq-29" value=" 自增主键 id&#xa;约束(范围)编码 constraint_code&#xa;约束(范围)名称 constraint_name&#xa;约束(范围)值 constraint_value&#xa;规范(参数)编码 specification_code&#xa;能力编码  ability_code&#xa;租户 tenant_id" style="text;strokeColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fillColor=#33FFFF;" vertex="1" parent="yZxD2o_advjfFHyLuFVq-28">
+          <mxGeometry y="26" width="210" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="yZxD2o_advjfFHyLuFVq-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#33FFFF;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yZxD2o_advjfFHyLuFVq-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-210" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yZxD2o_advjfFHyLuFVq-46" value="*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="103.69999999999999" y="45.93999935309978" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
